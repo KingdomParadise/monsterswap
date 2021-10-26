@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Links -->
+    <link rel="preconnect" href="%REACT_APP_NODE_1%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_2%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_3%" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Meta -->
+    <title>MonsterSwap</title>
+    <meta
+      name="description"
+      content="Monsterswap, the leading DEX on Binance Smart Chain (BSC) with the best farms in DeFi."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1" />
+    <meta name="theme-color" content="#4E4ED1" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/images/banner.jpg" />
+    <meta
+      name="twitter:description"
+      content="Built on the Binance Smart Chain, MonsterSwap is an Automated Market Maker, Yield Farming, Staking and Lottery platform with lots of fun gamified features for earning and winning tokens. Founded by DeFi enthusiasts, MonsterSwap is the fastest growing AMM on the Binance Smart chain."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MonsterSwap - A next generation state of the art Defi exchange" />
+    <link href="./font/Funhouse.ttf" >
+    <link href="./font/Ubuntu.ttf" >
+    <link href="./font/UbuntuBold.ttf" >
+    <!-- GTAG -->
+    <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', '%REACT_APP_GTAG%')
+    </script>
+    <style>
+      @font-face {
+        font-family: 'Funhouse';
+        src: url("/font/Funhouse.ttf");
+      }
+      @font-face {
+        font-family: 'Ubuntu';
+        src: local('Ubuntu'), url("/font/Ubuntu.ttf") format('truetype');
+      }
+      @font-face {
+        font-family: 'UbuntuBold';
+        src: local('UbuntuBold'), url("/font/UbuntuBold.ttf") format('truetype');
+      }
+    </style>
+  </head>
+  <body>
+    <!-- GTAG (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=%REACT_APP_GTAG%"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="portal-root"></div>
+  </body>
+</html>
